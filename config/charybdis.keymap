@@ -187,16 +187,16 @@
       display-name = "Base";
       bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp ESC       &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &kp DEL
+    &kp ESC       &kp N1        &kp N2        &kp N3        &kp N4        &kp N5            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &kp BSPC
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P         &kp BSLH
+    &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp P         &kp DEL
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp RCTRL     &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
+    &kp LSFT     &kp A         &kp S         &kp D         &kp F         &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp LSFT      &hml LGUI Z   &hml LALT X   &hml LCTRL C  &hml LSHIFT V &kp B             &kp N         &hmr RSHIFT M &hmr RCTRL COMMA &hmr RALT DOT &hmr RGUI FSLH &kp RSFT
+    &mt LCTRL SLCK  &kp Z        &kp X         &kp C           &kp V        &kp B             &kp N         &kp M        &kp COMMA     &kp DOT       &kp FSLH      &kp CLCK
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
 //               ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────╮
-                  &lalt_dt      &mo LOWER     &mo POINTER   &gui_ctrlb    &kp LCTRL         &kp RET      &blt SYMBOLS SPACE  &blt RAISE BSPC
+                  &mt LALT LGUI    &kp SPACE     &tog LOWER      &mkp LCLK   &mkp RCLK       &kp KP_ENTER   &kp SPACE  &blt RAISE BSPC
 //               ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
       >;
     };
@@ -210,9 +210,9 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp LA(TAB)   &kp LGUI      &kp LALT      &mo SNIPING   &mkp MB4      &mkp MB5          &kp HOME      &kp PG_DN     &kp PG_UP     &kp END       &kp F11       &kp F12
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp RCTRL     &kp LG(A)     &ctrl_cmd_hold &mkp RCLK    &mkp LCLK     &mkp MCLK         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp MINUS     &kp EQUAL
+    &kp LSFT     &kp LG(A)     &ctrl_cmd_hold &mkp RCLK    &mkp LCLK     &mkp MCLK         &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp MINUS     &kp EQUAL
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp LSFT      &hml LGUI LG(Z) &hml LALT LG(X) &hml LCTRL LG(C) &hml LSHIFT LG(V) &mo SCROLL    &kp RC(LS(TAB)) &hmr RSHIFT LC(TAB) &hmr RCTRL INS &hmr RALT INS &hmr RGUI LBKT &kp RBKT
+    &kp LCTRL      &kp Z          &kp X        &kp C &hml LSHIFT LG(V) &mo SCROLL    &kp RC(LS(TAB)) &hmr RSHIFT LC(TAB) &hmr RCTRL INS &hmr RALT INS &hmr RGUI LBKT &kp RBKT
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
 //               ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────╮
                   &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans
@@ -225,16 +225,16 @@
       display-name = "Lower";
       bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-    &kp ESC       &CAC F1       &CAC F2       &CAC F3       &CAC F4       &CAC F5           &CAC F6       &CAC F7       &CAC F8       &CAC F9       &CAC F10      &trans
+    &kp GRAVE       &kp F1        &kp F2        &kp F3        &kp F4        &kp F5            &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &kp BSPC
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &none         &CA Q         &CA W         &CA E         &CA R         &CA T             &CA Y         &CA U         &CA I         &CA O         &CAC F11      &CAC F12
+    &kp LA(TAB)         &CA Q         &CA W         &CA E         &CA R         &CA T          &kp HOME         &CA U      &kp PG_UP         &CA O         &CAC F11      &kp DEL
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &kp CAPS      &CA A         &CA S         &CA D         &CA F         &CA G             &CA H         &CA J         &CA K         &CA L         &CA SEMI      &CA SQT
+    &kp LSFT      &kp A         &kp S         &CA D         &CA F         &CA G             &kp END         &kp UP       &kp PAGE_DOWN   &kp MINUS    &kp EQUAL      &CA SQT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-    &trans        &CA Z         &CA X         &CA C         &CA V         &CSA F1           &kp LS(LG(GRAVE)) &kp LG(GRAVE) &CA COMMA     &CA DOT       &CA FSLH      &trans
+    &kp LCTRL        &kp Z        &kp X         &kp C           &kp V          &CSA F1        &kp LEFT      &kp DOWN     &kp RIGHT      &CA DOT       &kp LBKT     &kp RBKT
 // ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
 //               ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────╮
-                  &trans        &trans        &trans        &trans        &trans            &trans        &trans        &trans
+                  &kp LALT       &trans        &trans        &trans        &trans            &kp KP_ENTER   &kp SPACE        &trans
 //               ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
       >;
     };
